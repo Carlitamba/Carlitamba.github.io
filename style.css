@@ -101,11 +101,11 @@ section {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 80px);
-  max-width: 350px;
+  max-width: 320px;
   transition: 0.5s;
 }
 
 .keyboard-box:hover .keyboard-img {
-  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0.1));
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
   transform: translate3d(-50%, -50%, 80px) rotate(-5deg) scale(1.1);
 }
